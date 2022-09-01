@@ -26,9 +26,9 @@ int main()
 	}
 	if(smallest < z)
 	{
-		std::cout << "The smaller of the three is "+ std::to_string(smallest);
+		std::cout << "The smaller of the three is "+ std::to_string(smallest) << std::endl;
 	} else {
-		std::cout << "The smaller of the three is "+ std::to_string(z);
+		std::cout << "The smaller of the three is "+ std::to_string(z) << std::endl;
 	}
 
 	return 0;

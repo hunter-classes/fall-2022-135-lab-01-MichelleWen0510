@@ -17,9 +17,9 @@ int main()
 	std::cin >> y;
 	if (x < y)
 	{
-		std::cout << "The smaller of the two is "+ std::to_string(x);
+		std::cout << "The smaller of the two is "+ std::to_string(x) << std::endl;
 	} else {
-		std::cout << "The smaller of the two is "+ std::to_string(y);
+		std::cout << "The smaller of the two is "+ std::to_string(y) << std::endl;
 	}
 	return 0;
 }
