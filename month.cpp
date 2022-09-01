@@ -28,17 +28,17 @@ int main()
                 std::cout << "28 days" << std::endl;
         }
 
-	if(month%2 == 1 && month<=7)
+	if(month%2 == 1 && month<=7 && month>=1)
 	{
 		std::cout << "31 days" << std::endl;
-	} else if (month%2 == 0 && month<=7 && month!=2){
+	} else if (month%2 == 0 && month<=7 && month>=1 && month!=2){
 		std::cout << "30 days" << std::endl;
 	}
 	
-	if(month%2 == 1 && month>7)
+	if(month%2 == 1 && month>7 && month<=12)
 	{
 		std::cout << "30 days" << std::endl;
-	} else if (month%2 == 0 && month>7){
+	} else if (month%2 == 0 && month>7 && month<=12){
 		std::cout << "31 days" << std::endl;
 	}
 
